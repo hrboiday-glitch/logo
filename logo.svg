@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#4A90E2" stroke="#2E5C8A" stroke-width="3"/>
+  
+  <!-- Diamond/Gem shape representing "bảo bối" (treasure) -->
+  <g transform="translate(100, 100)">
+    <!-- Top part of gem -->
+    <polygon points="0,-50 30,-20 30,0 -30,0 -30,-20" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+    
+    <!-- Bottom part of gem -->
+    <polygon points="-30,0 30,0 20,20 0,40 -20,20" fill="#FFC107" stroke="#FF9800" stroke-width="2"/>
+    
+    <!-- Shine effect on gem -->
+    <polygon points="-15,-30 -5,-30 -10,-15" fill="#FFFFFF" opacity="0.6"/>
+    <polygon points="5,-25 12,-25 8,-15" fill="#FFFFFF" opacity="0.4"/>
+  </g>
+  
+  <!-- Text "bảo bối" -->
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#FFFFFF">bảo bối</text>
+</svg>
